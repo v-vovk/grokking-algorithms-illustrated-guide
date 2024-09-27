@@ -4,15 +4,16 @@ This project contains implementations of various algorithms in Python. Each algo
 
 ## Algorithms
 
-### 1. Selection Sort
-- **File:** `002_selection_sort.py`
-- **Description:** This algorithm sorts an array by repeatedly finding the smallest element from the unsorted part and putting it at the beginning.
-- **Time Complexity:** O(n^2)
-
-### 2. Binary Search
+### 1. Binary Search
 - **File:** `001_binary_search.py`
 - **Description:** This algorithm finds the position of a target value within a sorted array. It compares the target value to the middle element of the array.
 - **Time Complexity:** O(log n)
+- ![Description of the image](001_img.png)
+
+### 2. Selection Sort
+- **File:** `002_selection_sort.py`
+- **Description:** This algorithm sorts an array by repeatedly finding the smallest element from the unsorted part and putting it at the beginning.
+- **Time Complexity:** O(n^2)
 
 ### 3. Recursive Sum
 - **File:** `003_recursive_sum.py`
