@@ -21,3 +21,15 @@ def count_items(arr):
         return 1 + count_items(arr[1:])
 
 print(count_items([1, 2, 3, 4, 5]))  # 5
+
+def max_value(arr):
+    # Recursive max algorithm:
+    # 1. If the array has only one element, return that element.
+    # 2. Otherwise, return the maximum of the first element and the maximum of the rest of the array.
+    # Time complexity: O(n)
+    if len(arr) == 1:
+        return arr[0]
+    else:
+        return max(arr[0], max_value(arr[1:]))
+
+print(max_value([1, 2, 3, 4, 5]))  # 5
