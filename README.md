@@ -14,6 +14,7 @@ This project contains implementations of various algorithms in Python. Each algo
 - **File:** `002_selection_sort.py`
 - **Description:** This algorithm sorts an array by repeatedly finding the smallest element from the unsorted part and putting it at the beginning.
 - **Time Complexity:** O(n^2)
+- ![Description of the image](002_img.png)
 
 ### 3. Recursive Sum
 - **File:** `003_recursive_sum.py`
