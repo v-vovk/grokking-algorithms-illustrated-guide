@@ -1,4 +1,13 @@
 def binary_search(list, item):
+    # Binary search algorithm:
+    # 1. Set the initial low and high pointers to the start and end of the list.
+    # 2. While the low pointer is less than or equal to the high pointer:
+    #    a. Calculate the mid-point.
+    #    b. If the mid-point value is equal to the item, return the mid-point index.
+    #    c. If the mid-point value is greater than the item, move the high pointer to mid-point - 1.
+    #    d. If the mid-point value is less than the item, move the low pointer to mid-point + 1.
+    # 3. If the item is not found, return None.
+    # Time complexity: O(log n)
     low = 0
     high = len(list) - 1
 

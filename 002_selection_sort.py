@@ -1,4 +1,5 @@
 def find_smallest(arr):
+    # This function finds the smallest element in the array and returns its index.
     smallest = arr[0]
     smallest_index = 0
 
@@ -9,7 +10,11 @@ def find_smallest(arr):
 
     return smallest_index
 
-# Selection sort O(n log n)
+# Selection sort algorithm:
+# 1. Find the smallest element in the array.
+# 2. Remove the smallest element from the original array and add it to a new array.
+# 3. Repeat the process until all elements are sorted.
+# Time complexity: O(n^2)
 def selection_sort(arr):
     new_arr = []
 
